@@ -27,8 +27,8 @@ public class A1Adept {
 		}
 		
 			int iter = scan.nextInt();
-			String[] firstnames = new String[count];
-			String[] lastnames = new String[count];
+			String[] firstnames = new String[iter];
+			String[] lastnames = new String[iter];
 			Double[] total = new Double[iter];
 			
 			for(int zero = 0; zero < iter; zero++) {
